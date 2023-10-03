@@ -1,0 +1,5 @@
+# website public data
+public/
+
+# macOS Finder's metadata
+.DS_Store

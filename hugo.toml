@@ -1,3 +1,64 @@
 baseURL = 'http://consulminds.com/'
 languageCode = 'en-in'
 title = 'ConsulMinds Technologies'
+
+theme = 'hugo-universal-theme'
+
+[params]
+    disabled_logo = false
+    logo_text = 'CONSULMINDS TECHNOLOGIES'
+    logo = 'img/logo.png'
+    logo_small = 'img/logo.png'
+
+    email = "info@consulminds.com"
+    contact_form_ajax = false
+
+[params.topbar]
+    enable = true
+    text = """
+    <p class="hidden-sm hidden-xs">Contact us on +91 9028-817-212 or info@consulminds.com.</p>
+    <p class="hidden-md hidden-lg">
+        <a href="tel:+91 9028 817 212" data-animate-hover="pulse"><i class="fas fa-phone"></i></a>
+        <a href="mailto:info@consulminds.com" data-animate-hover="pulse"><i class="fas fa-envelope"></i></a>
+    </p>
+    """
+
+# Menu bar
+[[menu.main]]
+    name       = "About Us"
+    identifier = "menu.about"
+    url        = "/about"
+    weight     = 1
+
+[[menu.main]]
+    name       = "Services"
+    identifier = "menu.services"
+    url        = "/services"
+    weight     = 2
+
+[[menu.main]]
+    name       = "Contact Us"
+    identifier = "menu.contact"
+    url        = "/contact"
+    weight     = 3
+
+[[menu.main]]
+    name       = "Blog"
+    identifier = "menu.blog"
+    url        = "/blog"
+    weight     = 4
+
+
+# Social Links
+
+[[menu.topbar]]
+    weight = 1
+    name = "GitHub"
+    url = "https://github.com/consulminds"
+    pre = "<i class='fas fa-2x fa-github'></i>"
+
+[[menu.topbar]]
+    weight = 2
+    name = "LinkedIn"
+    url = "https://www.linkedin.com/company/consulminds"
+    pre = "<i class='fas fa-2x fa-linkedin'></i>"
