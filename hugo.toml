@@ -13,6 +13,19 @@ theme = 'hugo-universal-theme'
     email = "info@consulminds.com"
     contact_form_ajax = false
 
+    about_us = "<p>We are software services company based out of Pune.</p>"
+
+    contact_url = "/contact"
+    address = """<p class="text-uppercase"><strong>ConsulMinds Technologies Private Limited.</strong>
+        <br>308, Opel Falaq CHS,
+        <br>Kondhwa (Kh), Pune
+        <br>411048
+        <br>
+        <strong>India</strong>
+      </p>
+      """
+
+    copyright = "Copyright (c) 2022 - 2023, ConsulMinds Technologies Pvt Ltd; all rights reserved."
 [params.topbar]
     enable = true
     text = """
@@ -62,3 +75,17 @@ theme = 'hugo-universal-theme'
     name = "LinkedIn"
     url = "https://www.linkedin.com/company/consulminds"
     pre = "<i class='fas fa-2x fa-linkedin'></i>"
+
+[params.features]
+    enable = true
+    cols = 2
+
+[params.testimonials]
+    enable = false
+    title = "Testimonials"
+    subtitle = "We have worked with many clients and we always like to hear they come out from the cooperation happy and satisfied. Have a look what our clients said about us."
+
+[params.clients]
+    enable = true
+    title = "Our Partners"
+    subtitle = "We have proudly collaborated with the following companies."
