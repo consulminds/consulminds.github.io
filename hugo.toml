@@ -40,25 +40,25 @@ theme = 'hugo-universal-theme'
 [[menu.main]]
     name       = "About Us"
     identifier = "menu.about"
-    url        = "/about"
+    url        = "/#"
     weight     = 1
 
 [[menu.main]]
     name       = "Services"
     identifier = "menu.services"
-    url        = "/services"
+    url        = "/#"
     weight     = 2
 
 [[menu.main]]
     name       = "Contact Us"
     identifier = "menu.contact"
-    url        = "/contact"
+    url        = "/#"
     weight     = 3
 
 [[menu.main]]
     name       = "Blog"
     identifier = "menu.blog"
-    url        = "/blog"
+    url        = "/#"
     weight     = 4
 
 
