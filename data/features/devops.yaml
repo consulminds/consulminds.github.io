@@ -1,0 +1,5 @@
+weight: 3
+name: "DevOps"
+icon: "fas fa-cloud"
+url: ""
+description: "Manage infrastructure with DevOps best practises"

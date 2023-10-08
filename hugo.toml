@@ -37,29 +37,29 @@ theme = 'hugo-universal-theme'
     """
 
 # Menu bar
-[[menu.main]]
-    name       = "About Us"
-    identifier = "menu.about"
-    url        = "/#"
-    weight     = 1
+# [[menu.main]]
+#     name       = "About Us"
+#     identifier = "menu.about"
+#     url        = "/#"
+#     weight     = 1
 
-[[menu.main]]
-    name       = "Services"
-    identifier = "menu.services"
-    url        = "/#"
-    weight     = 2
+# [[menu.main]]
+#     name       = "Consulting"
+#     identifier = "menu.services"
+#     url        = "/#"
+#     weight     = 2
 
-[[menu.main]]
-    name       = "Contact Us"
-    identifier = "menu.contact"
-    url        = "/#"
-    weight     = 3
+# [[menu.main]]
+#     name       = "Contact Us"
+#     identifier = "menu.contact"
+#     url        = "/#"
+#     weight     = 3
 
-[[menu.main]]
-    name       = "Blog"
-    identifier = "menu.blog"
-    url        = "/#"
-    weight     = 4
+# [[menu.main]]
+#     name       = "Blog"
+#     identifier = "menu.blog"
+#     url        = "/#"
+#     weight     = 4
 
 
 # Social Links
