@@ -13,7 +13,9 @@ theme = 'hugo-universal-theme'
     email = "info@consulminds.com"
     contact_form_ajax = false
 
-    about_us = "<p>We are software services company based out of Pune.</p>"
+    defaultDescription = "ConsulMinds Technologies - Tech consulting"
+
+    about_us = "<p>We are software services company based out of Pune. We develop products and solutions for customers.</p>"
 
     contact_url = "/contact"
     address = """<p class="text-uppercase"><strong>ConsulMinds Technologies Private Limited.</strong>
@@ -26,10 +28,11 @@ theme = 'hugo-universal-theme'
       """
 
     copyright = "Copyright (c) 2022 - 2023, ConsulMinds Technologies Pvt Ltd; all rights reserved."
+
 [params.topbar]
     enable = true
     text = """
-    <p class="hidden-sm hidden-xs">Contact us on +91 9028-817-212 or info@consulminds.com.</p>
+    <p class="hidden-sm hidden-xs">Reach us at info@consulminds.com.</p>
     <p class="hidden-md hidden-lg">
         <a href="tel:+91 9028 817 212" data-animate-hover="pulse"><i class="fas fa-phone"></i></a>
         <a href="mailto:info@consulminds.com" data-animate-hover="pulse"><i class="fas fa-envelope"></i></a>
@@ -78,7 +81,7 @@ theme = 'hugo-universal-theme'
 
 [params.features]
     enable = true
-    cols = 2
+    cols = 3
 
 [params.testimonials]
     enable = false
