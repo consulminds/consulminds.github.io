@@ -15,7 +15,7 @@ theme = 'hugo-universal-theme'
 
     defaultDescription = "ConsulMinds Technologies - Tech consulting"
 
-    about_us = "<p>We are software services company based out of Pune. We develop products and solutions for customers.</p>"
+    about_us = "<p>We are a team of passionate people that take great pleasure in building reliable softwares. We focus on the quality of the product and aim for customer success. We partner with our clients at all stages of the product lifecycle.</p>"
 
     contact_url = "/contact"
     address = """<p class="text-uppercase"><strong>ConsulMinds Technologies Private Limited.</strong>
@@ -27,7 +27,7 @@ theme = 'hugo-universal-theme'
       </p>
       """
 
-    copyright = "Copyright (c) 2022 - 2023, ConsulMinds Technologies Pvt Ltd; all rights reserved."
+    copyright = "Copyright (c) 2022 - 2023, ConsulMinds Technologies Pvt Ltd. All rights reserved."
 
 [params.topbar]
     enable = true
@@ -89,6 +89,6 @@ theme = 'hugo-universal-theme'
     subtitle = "We have worked with many clients and we always like to hear they come out from the cooperation happy and satisfied. Have a look what our clients said about us."
 
 [params.clients]
-    enable = true
+    enable = false
     title = "Our Partners"
     subtitle = "We have proudly collaborated with the following companies."
